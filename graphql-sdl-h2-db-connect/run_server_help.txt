@@ -1,0 +1,34 @@
+http://localhost:8080/voyager
+
+
+http://localhost:8080/graphiql
+
+
+query{
+  authors{
+    id
+    name
+    email
+    posts{
+      id
+      title
+      description
+      category
+      author{
+        id
+        name
+      }
+    }  
+
+  }
+}
+
+
+
+To check data base 
+http://localhost:8080/h2-console
+
+
+after open db you need to connect
+1. in console find "Database available" there you will get url 'jdbc:h2:mem:8c5aaab3-c50c-49a0-b6c2-bbaa4c533229'
+2. copy url 'jdbc:h2:mem:8c5aaab3-c50c-49a0-b6c2-bbaa4c533229' and paste into the opened h2-db jdbc-url then connect
