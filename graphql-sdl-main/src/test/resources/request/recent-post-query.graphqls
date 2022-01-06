@@ -1,0 +1,10 @@
+query{
+ recentPosts(Count:10,offset:0){
+  title
+  author{
+    id
+    email
+  }
+}
+}
+

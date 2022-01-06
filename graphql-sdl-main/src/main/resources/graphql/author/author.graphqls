@@ -1,0 +1,9 @@
+type Author {
+    id: ID!
+    name: String!
+    email: String!
+    posts: [Post]!
+    # postCount is field resolver
+    postCount: Int!
+    comments(first: Int!): [Comment]!
+}

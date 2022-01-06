@@ -1,0 +1,16 @@
+#RFC-339 complaint date time
+#https://datatracker.ietf.org/doc/html/rfc3339
+scalar Date
+scalar DateTime
+scalar Time
+#phone number scalar type
+#https://regex101.com/library
+#https://regex101.com/library/rL2lD5?orderBy=RELEVANCE&search=phone
+scalar PhoneNumber
+
+#alias scala type
+
+scalar SocialMediaLink
+
+#Custome scalar
+scalar Email

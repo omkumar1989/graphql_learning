@@ -1,0 +1,8 @@
+mutation{
+  createAuthor(author:{
+    name:"test"
+    email:"email"
+  })
+
+}
+
